@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul img{
+    height: 3rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+li{
+    padding: 0.8rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-gradient{
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(-20deg, #12100E 0%, #FFDD00 100%);
+    background-image: linear-gradient(-20deg, #FFDD00 0%, #12100E 100%);
+}
+.home-gradient{
+    background-image: linear-gradient(120deg, #8ec5fc 0%, #e0c3fc 100%);
+    background-image: linear-gradient(-20deg, #e3d88f 0%, #918579 100%);
+
+    height: 90vh;
+}
+
+.desk img{
+    border-radius: 1rem;
+}
+.btn{
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(-20deg, #FFDD00 0%, #12100E 100%);
+
+    color: white !important;
+}
+.btn:hover{
+    color: black !important;
+    background: white !important;
+}
+.education{
+    height: 100vh;
+}
+
+.card img{
+    height: 10rem;
+    width: 10rem;
+}
+.intro{
+    overflow: hidden;
+}
+
+.social-media li a:hover{
+    filter:grayscale(5);
+    filter: brightness(0.15);
+
+}
+.navbar{
+    height: 4rem;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media(max-width:993px){
+    .navbar{
+        height: auto;
+    }
+    ul img{
+        margin-right: auto;
+    }
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
