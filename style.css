@@ -83,6 +83,6 @@ li a{
 }
 
 .card:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
+    transform: scale(0.6);
+    transition: 0.4s;
 }
